@@ -7,7 +7,7 @@ password = getpass.getpass(prompt='Password: ')
 host = sys.argv[1]
 
 srx = {
-	'device_type': 'cisco_ios',
+    'device_type': 'cisco_ios',
     'host': host,
     'username': 'natalia.gromova',
     'password': password,
